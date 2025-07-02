@@ -1,0 +1,22 @@
+.footer-content {
+  margin-top: 100px;
+  background-color: var(--primary-color);
+  font-family: "Playfair Display", cursive;
+  text-align: center;
+  padding: 2rem 0;
+  height: 300px;
+  background-image: url(../images/footer.png);
+  background-size: cover; 
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+.footer-content p{
+    color: black;
+}
+.footer-content li:hover {
+  color: var(--secondary-color);
+}
+.footer-logo {
+  margin-left: 44rem;
+}

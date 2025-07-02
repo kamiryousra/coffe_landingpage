@@ -1,0 +1,43 @@
+main #hero {
+  background-image: url("../images/herosection.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  color: white;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+.hero-content p {
+  color: var(--neutral-color);
+}
+.hero-content h2 {
+  margin-top: 30px;
+  font-size: 3.375rem;
+  color: var(--neutral-color);
+  font-weight: bold;
+  text-transform: capitalize;
+  height: 100px;
+}
+.hero-content h1 {
+  font-size: 15rem;
+  margin: 0;
+  font-family: "Clicker Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+}
+
+.hero-content button {
+  margin-top: 10px;
+}

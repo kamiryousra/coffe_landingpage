@@ -1,0 +1,60 @@
+header {
+  background-color: transparent;
+  position: absolute;
+}
+.container {
+  max-width: none;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: white;
+  top: 0%;
+  margin-bottom: 100px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  list-style: none;
+}
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.navigation a:hover {
+  color: black;
+  background-color: #f9c06a;
+}
+
+.connection {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.connection a {
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+}
+.connection a:hover {
+  color: #222;
+  background-color: #f9c06a;
+}
+
+.connections {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

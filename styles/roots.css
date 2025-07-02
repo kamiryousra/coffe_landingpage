@@ -1,0 +1,70 @@
+:root {
+  --primary-color: #603809;
+  --secondary-color: #f9c06a;
+  --neutral-color: #ffffff;
+  --text-color: #707070;
+  --bg-color: #fff9f1;
+  --base-color: #1e1e1e;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: var(--neutral-color);
+  color: var(--neutral-color);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  min-height: 100vh;
+}
+.btn {
+  padding: 18px 30px;
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+  color: var(--base-color);
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  color: var(--primary-color);
+  background-color: black;
+}
+
+/* headings */
+h1 {
+  color: var(--neutral-color);
+}
+
+h2 {
+  font-size: 3.375rem;
+}
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* paragraphs */
+.hero-content p {
+  color: var(--neutral-color);
+}
+p {
+  color: var(--text-color);
+  font-size: 1.25rem;
+}
+
+/* container */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 100%;
+}

@@ -1,0 +1,32 @@
+#HOME {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100vh;
+  background-color: bisque; 
+}
+.home-content {
+  background-image: url("../images/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home-content h2 {
+  margin-top: 100px;
+  font-size: xx-large;
+  font-family: "Playfair Display", Cursive;
+}
+.home-content p {
+  font-family: "Playfair Display", cursive;
+  text-align: center;
+  margin-top: 30px;
+}
+.home-content button {
+  margin-top: 40px;
+  margin-left: 0;
+}
+.
+

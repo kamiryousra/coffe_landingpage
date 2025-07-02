@@ -1,0 +1,51 @@
+#menu {
+  height: 100px;
+}
+.coffee {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  gap: 10px;
+}
+.menucontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.menucontent h2 {
+  margin-left: 15rem;
+}
+.menucontent p {
+  margin-left: 17rem;
+  margin-bottom:2rem;
+}
+.items {
+  border: sienna;
+  border-radius: 10px;
+  background-color: #f4d19e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+}
+.btnmenu {
+  margin-top: 300px;
+  position: absolute;
+  padding: 18px 30px;
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+  color: var(--base-color);
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.btnmenu:hover {
+  color: var(--primary-color);
+  background-color: black;
+}
+@media;
